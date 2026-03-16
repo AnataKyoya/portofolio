@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aldo Natanael Sihaloho</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700;1,900&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="cursor" id="cursor"></div>
+
+  <!-- NAV -->
+  <nav id="nav">
+    <div class="nav-left">
+      <span class="nav-name">ANS<span class="nav-accent">.</span></span>
+    </div>
+    <div class="nav-center">
+      <a href="#work" data-i18n="nav_exp">WORK</a>
+      <a href="#skills" data-i18n="nav_skills">SKILLS</a>
+      <a href="#certs" data-i18n="nav_certs">CERTS</a>
+      <a href="#contact" data-i18n="nav_contact">CONTACT</a>
+    </div>
+    <div class="nav-right-group">
+      <button id="langBtn" class="lang-btn"><span id="langCurrent">EN</span> / <span id="langOther">ID</span></button>
+      <button class="hamburger" id="hamburger"><span></span><span></span></button>
+    </div>
+  </nav>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#work" data-i18n="nav_exp">WORK</a>
+    <a href="#skills" data-i18n="nav_skills">SKILLS</a>
+    <a href="#certs" data-i18n="nav_certs">CERTS</a>
+    <a href="#contact" data-i18n="nav_contact">CONTACT</a>
+  </div>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-index mono">01</div>
+    <div class="hero-tag mono" data-i18n="hero_tag">FRONTEND DEVELOPER — INTEGRATION SPECIALIST</div>
+    <h1 class="hero-title">
+      <span class="tl">ALDO</span>
+      <span class="tl tl-i">NATANAEL</span>
+      <span class="tl">SIHALOHO</span>
+    </h1>
+    <div class="hero-lower">
+      <div class="hero-desc-col">
+        <p class="hero-desc" data-i18n="hero_desc">Building interfaces that work.<br>Integrating AI that thinks.<br>Securing platforms that hold.</p>
+        <div class="hero-loc mono">📍 Banjarbaru, South Kalimantan</div>
+        <div class="hero-edu mono">SMK Negeri 2 Banjarbaru</div>
+      </div>
+      <div class="hero-photo-col">
+        <div class="hero-photo-frame" onclick="openLightbox('img/hero.jpg','Aldo Natanael Sihaloho')">
+          <img src="img/hero.jpg" alt="Aldo Natanael Sihaloho" />
+          <div class="photo-hint mono" data-i18n="photo_label">[ CLICK TO ENLARGE ]</div>
+        </div>
+      </div>
+    </div>
+    <div class="marquee-track">
+      <div class="marquee-inner">
+        <span>REACT &nbsp;·&nbsp; LARAVEL &nbsp;·&nbsp; CODEIGNITER &nbsp;·&nbsp; GEMINI AI &nbsp;·&nbsp; DOCKER &nbsp;·&nbsp; KUBERNETES &nbsp;·&nbsp; ANSIBLE &nbsp;·&nbsp; LINUX &nbsp;·&nbsp; WEB SCRAPING &nbsp;·&nbsp; MIKROTIK MTCNA &nbsp;·&nbsp; DEVICE FINGERPRINTING &nbsp;·&nbsp; VIDEO ENCRYPTION &nbsp;·&nbsp; PHP &nbsp;·&nbsp; JAVASCRIPT &nbsp;·&nbsp;</span>
+        <span>REACT &nbsp;·&nbsp; LARAVEL &nbsp;·&nbsp; CODEIGNITER &nbsp;·&nbsp; GEMINI AI &nbsp;·&nbsp; DOCKER &nbsp;·&nbsp; KUBERNETES &nbsp;·&nbsp; ANSIBLE &nbsp;·&nbsp; LINUX &nbsp;·&nbsp; WEB SCRAPING &nbsp;·&nbsp; MIKROTIK MTCNA &nbsp;·&nbsp; DEVICE FINGERPRINTING &nbsp;·&nbsp; VIDEO ENCRYPTION &nbsp;·&nbsp; PHP &nbsp;·&nbsp; JAVASCRIPT &nbsp;·&nbsp;</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- WORK -->
+  <section id="work">
+    <div class="s-header">
+      <span class="s-num mono">02</span>
+      <h2 data-i18n="exp_title">WORK EXPERIENCE</h2>
+    </div>
+    <div class="work-wrap">
+      <div class="work-meta-col">
+        <div class="work-company">PT ELECOMP<br>INDONESIA</div>
+        <div class="work-period mono">NOV 2025<br>—<br>FEB 2026</div>
+        <div class="work-badge mono" data-i18n="exp_role">WEB DEV INTERN</div>
+      </div>
+      <div class="work-items-col">
+        <div class="work-item" data-num="①">
+          <div class="wi-title" data-i18n="exp1_title">AI & Chatbot Implementation</div>
+          <p data-i18n="exp1_desc">Developed interactive chatbots using Gemini 2.5 Flash, integrating Speech-to-Text and Text-to-Speech functionalities for real-time customer service.</p>
+        </div>
+        <div class="work-item" data-num="②">
+          <div class="wi-title" data-i18n="exp2_title">Data Automation — Web Scraping</div>
+          <p data-i18n="exp2_desc">Engineered autonomous scraping systems for HTML and PDF files across multiple platforms with checkpoint mechanisms for data integrity.</p>
+        </div>
+        <div class="work-item" data-num="③">
+          <div class="wi-title" data-i18n="exp3_title">Security & Session Management</div>
+          <p data-i18n="exp3_desc">Built real-time database monitoring for device fingerprinting, session conflict detection, and automated logout protocols.</p>
+        </div>
+        <div class="work-item" data-num="④">
+          <div class="wi-title" data-i18n="exp4_title">Content Protection</div>
+          <p data-i18n="exp4_desc">Implemented video encryption on e-learning platforms to prevent unauthorized downloads and IP theft.</p>
+        </div>
+        <div class="work-item" data-num="⑤">
+          <div class="wi-title" data-i18n="exp5_title">Payment & Transactional Systems</div>
+          <p data-i18n="exp5_desc">Managed Lynk.id webhooks for automated license key activation and transactional email delivery.</p>
+        </div>
+        <div class="work-item" data-num="⑥">
+          <div class="wi-title" data-i18n="exp6_title">Optimization & Maintenance</div>
+          <p data-i18n="exp6_desc">UI responsiveness, SEO via Sitemap & Google Search Console, refactored recommendation algorithms.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="shots-label mono" data-i18n="gallery_label">// PROJECT SCREENSHOTS</div>
+    <div class="shots-grid">
+      <div class="shot" onclick="openLightbox('img/desktop_chatbot_cs.png','Chatbot Elecomp — Desktop')"><img src="img/desktop_chatbot_cs.png" alt="" /><div class="shot-cap mono" data-i18n="gallery_chatbot">CHATBOT DESKTOP</div></div>
+      <div class="shot" onclick="openLightbox('img/mobile_chatbot_cs.png','Chatbot Elecomp — Mobile')"><img src="img/mobile_chatbot_cs.png" alt="" /><div class="shot-cap mono" data-i18n="gallery_chatbot_m">CHATBOT MOBILE</div></div>
+      <div class="shot" onclick="openLightbox('img/desktop_pdf_parse.png','FileCrawler.ai — Desktop')"><img src="img/desktop_pdf_parse.png" alt="" /><div class="shot-cap mono" data-i18n="gallery_pdf">FILECRAWLER.AI</div></div>
+      <div class="shot" onclick="openLightbox('img/session_conflict.png','Session Conflict Detection')"><img src="img/session_conflict.png" alt="" /><div class="shot-cap mono" data-i18n="gallery_session">SESSION SECURITY</div></div>
+      <div class="shot" onclick="openLightbox('img/smtp_with_html_message.png','SMTP Email')"><img src="img/smtp_with_html_message.png" alt="" /><div class="shot-cap mono" data-i18n="gallery_smtp">SMTP EMAIL</div></div>
+      <div class="shot" onclick="openLightbox('img/mobile_pdf_parse.png','FileCrawler.ai — Mobile')"><img src="img/mobile_pdf_parse.png" alt="" /><div class="shot-cap mono" data-i18n="gallery_pdf_m">FILECRAWLER MOBILE</div></div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="s-header">
+      <span class="s-num mono">03</span>
+      <h2 data-i18n="proj_title">PROJECTS</h2>
+    </div>
+    <div class="projects-list">
+      <div class="proj-item proj-absys" onclick="openLightbox('img/absys_logo.svg','Absys.id — AI Base System')">
+        <div class="proj-num mono">001</div>
+        <div class="proj-logo"><img src="img/absys_logo.svg" alt="Absys" /></div>
+        <div class="proj-body">
+          <div class="proj-name">ABSYS.ID</div>
+          <p data-i18n="proj1_desc">Brand identity & technical architecture for an AI-driven base system platform.</p>
+          <div class="proj-tags mono">AI · BRANDING · ARCHITECTURE</div>
+        </div>
+        <div class="proj-arrow">↗</div>
+      </div>
+      <div class="proj-item">
+        <div class="proj-num mono">002</div>
+        <div class="proj-logo proj-logo-text">UPR</div>
+        <div class="proj-body">
+          <div class="proj-name" data-i18n="proj2_name">UNIV. PALANGKARAYA</div>
+          <p data-i18n="proj2_desc">High-performance responsive institutional web portal.</p>
+          <div class="proj-tags mono">WEB PORTAL · RESPONSIVE · INSTITUTIONAL</div>
+        </div>
+        <div class="proj-arrow">↗</div>
+      </div>
+      <div class="proj-item">
+        <div class="proj-num mono">003</div>
+        <div class="proj-logo proj-logo-text" style="font-size:2rem">🎨</div>
+        <div class="proj-body">
+          <div class="proj-name" data-i18n="proj3_name">PACKAGING DESIGN</div>
+          <p data-i18n="proj3_desc">Professional packaging for Rendang, Sambal Cumi, and Ceker Mercon brands.</p>
+          <div class="proj-tags mono">DESIGN · PACKAGING · BRANDING</div>
+        </div>
+        <div class="proj-arrow">↗</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="s-header">
+      <span class="s-num mono">04</span>
+      <h2 data-i18n="skills_title">SKILLS</h2>
+    </div>
+    <div class="skills-layout">
+      <div class="skills-big-col">
+        <div class="skill-group-label mono" data-i18n="skill_frameworks">FRAMEWORKS</div>
+        <div class="skill-name-big">CodeIgniter</div>
+        <div class="skill-name-big">Laravel</div>
+        <div class="skill-name-big skill-dim">React.js</div>
+        <div class="skill-group-label mono" style="margin-top:32px" data-i18n="skill_languages">LANGUAGES</div>
+        <div class="skill-name-big">JavaScript</div>
+        <div class="skill-name-big skill-dim">PHP</div>
+        <div class="skill-name-big skill-dim">HTML5 / CSS3</div>
+      </div>
+      <div class="skills-list-col">
+        <div class="skill-group-label mono" data-i18n="skill_ai">AI & SECURITY</div>
+        <ul class="raw-list">
+          <li>Gemini AI Integration</li>
+          <li>Web Scraping (HTML/PDF)</li>
+          <li data-i18n="skill_fingerprint">Device Fingerprinting</li>
+          <li data-i18n="skill_video_enc">Video Encryption</li>
+        </ul>
+        <div class="skill-group-label mono" style="margin-top:32px" data-i18n="skill_devops">INFRASTRUCTURE & DEVOPS</div>
+        <ul class="raw-list">
+          <li>Linux System Administration</li>
+          <li>Docker</li>
+          <li>Ansible</li>
+          <li>Kubernetes / K3D</li>
+          <li>MikroTik (MTCNA Certified)</li>
+          <li>Monitoring & Logging</li>
+          <li>Git / Webhooks</li>
+        </ul>
+      </div>
+      <div class="achievements-col">
+        <div class="skill-group-label mono" data-i18n="skill_achievements">ACHIEVEMENTS</div>
+        <div class="ach-card">
+          <div class="ach-medal">🥇</div>
+          <div class="ach-text">
+            <div class="ach-name" data-i18n="ach2_title">1st Place — Informatics Quiz</div>
+            <div class="ach-org mono" data-i18n="ach2_sub">DIGINETFEST · Hasnur Polytechnic · Aug 2025</div>
+          </div>
+        </div>
+        <div class="ach-card">
+          <div class="ach-medal">🥈</div>
+          <div class="ach-text">
+            <div class="ach-name" data-i18n="ach1_title">2nd Place — Web Design Technology</div>
+            <div class="ach-org mono" data-i18n="ach1_sub">LKS Provincial · South Kalimantan · May 2025</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section id="certs">
+    <div class="s-header">
+      <span class="s-num mono">05</span>
+      <h2 data-i18n="certs_title">CERTIFICATIONS</h2>
+    </div>
+
+    <div class="cert-section-label mono" data-i18n="certs_cat_awards">// ACHIEVEMENT CERTIFICATES</div>
+    <div class="cert-awards-grid">
+      <div class="cert-award-card" onclick="openLightbox('img/cert_lks.jpg','Piagam LKS — Juara 2 Web Technologies, Provinsi Kalimantan Selatan 2025')">
+        <img src="img/cert_lks.jpg" alt="LKS" class="cert-award-preview" />
+        <div class="cert-award-overlay">
+          <div class="cert-rank-tag mono cert-silver">🥈 <span data-i18n="cert_award_2nd">2nd PLACE</span></div>
+          <div class="cert-award-title" data-i18n="cert_lks">WEB TECHNOLOGIES<br>LKS PROVINCIAL 2025</div>
+          <div class="cert-award-issuer mono">Dinas Pendidikan Kalsel</div>
+        </div>
+      </div>
+      <div class="cert-award-card" onclick="openLightbox('img/cert_diginetfest.png','Sertifikat DIGINETFEST — Juara 1 Lomba Cerdas Cermat 2025')">
+        <img src="img/cert_diginetfest.png" alt="Diginetfest" class="cert-award-preview" />
+        <div class="cert-award-overlay">
+          <div class="cert-rank-tag mono cert-gold">🥇 <span data-i18n="cert_award_1st">1st PLACE</span></div>
+          <div class="cert-award-title" data-i18n="cert_diginetfest">LOMBA CERDAS CERMAT<br>DIGINETFEST 2025</div>
+          <div class="cert-award-issuer mono">Politeknik Hasnur</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="cert-section-label mono" style="margin-top:56px" data-i18n="certs_cat_tech">// TECHNICAL CERTIFICATIONS</div>
+    <div class="cert-tech-list">
+      <div class="cti" onclick="openLightbox('img/certificate__2___1_.png','DevOps Fundamental: Monitoring & Logging')">
+        <img src="img/certificate__2___1_.png" class="cti-thumb" alt="" />
+        <div class="cti-body">
+          <div class="cti-name" data-i18n="cert1">DevOps Fundamental: Monitoring & Logging</div>
+          <div class="cti-meta mono">Adinusa × Btech Academy &nbsp;·&nbsp; 2025 &nbsp;·&nbsp; ADI-C0500004-00000-40015</div>
+        </div>
+        <span class="cti-arr">→</span>
+      </div>
+      <div class="cti" onclick="openLightbox('img/certificate__2_.png','Linux System Administration')">
+        <img src="img/certificate__2_.png" class="cti-thumb" alt="" />
+        <div class="cti-body">
+          <div class="cti-name" data-i18n="cert2">Linux System Administration</div>
+          <div class="cti-meta mono">Btech Academy &nbsp;·&nbsp; 2024 &nbsp;·&nbsp; C01001-00000-29973</div>
+        </div>
+        <span class="cti-arr">→</span>
+      </div>
+      <div class="cti" onclick="openLightbox('img/certificate__3_.png','Automation with Ansible')">
+        <img src="img/certificate__3_.png" class="cti-thumb" alt="" />
+        <div class="cti-body">
+          <div class="cti-name" data-i18n="cert3">Automation with Ansible</div>
+          <div class="cti-meta mono">Btech Academy &nbsp;·&nbsp; 2025 &nbsp;·&nbsp; C01003-00000-43604</div>
+        </div>
+        <span class="cti-arr">→</span>
+      </div>
+      <div class="cti" onclick="openLightbox('img/certificate__1___1_.png','Docker Fundamental')">
+        <img src="img/certificate__1___1_.png" class="cti-thumb" alt="" />
+        <div class="cti-body">
+          <div class="cti-name" data-i18n="cert4">Docker Fundamental</div>
+          <div class="cti-meta mono">Btech Academy &nbsp;·&nbsp; 2025 &nbsp;·&nbsp; C01002-00000-35903</div>
+        </div>
+        <span class="cti-arr">→</span>
+      </div>
+      <div class="cti" onclick="openLightbox('img/certificate__4_.png','Kubernetes K3D')">
+        <img src="img/certificate__4_.png" class="cti-thumb" alt="" />
+        <div class="cti-body">
+          <div class="cti-name" data-i18n="cert5">Lightweight Kubernetes Administration (K3D)</div>
+          <div class="cti-meta mono">Adinusa × Btech Academy &nbsp;·&nbsp; 2025 &nbsp;·&nbsp; ADI-C0500005-00000-40076</div>
+        </div>
+        <span class="cti-arr">→</span>
+      </div>
+      <div class="cti cti-mikrotik" onclick="openLightbox('img/cert_mtcna.jpg','MikroTik MTCNA — 2510NA6714')">
+        <img src="img/cert_mtcna.jpg" class="cti-thumb" alt="" />
+        <div class="cti-body">
+          <div class="cti-name" data-i18n="cert6">MikroTik Certified Network Associate (MTCNA)</div>
+          <div class="cti-meta mono">MikroTik &nbsp;·&nbsp; 2025-10-20 &nbsp;·&nbsp; 2510NA6714</div>
+          <div class="cti-valid mono"><span class="valid-dot"></span><span data-i18n="cert_valid_until">Valid until</span> 2028-10-20</div>
+        </div>
+        <span class="cti-arr">→</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="s-header">
+      <span class="s-num mono">06</span>
+      <h2 data-i18n="contact_title">LET'S TALK</h2>
+    </div>
+    <div class="contact-body">
+      <div class="contact-big" data-i18n="contact_big">GOT A<br>PROJECT?</div>
+      <div class="contact-lines">
+        <a href="mailto:aldo.natanael.sihaloho999@gmail.com" class="cl">
+          <span class="cl-label mono" data-i18n="contact_email">EMAIL</span>
+          <span class="cl-value">aldo.natanael.sihaloho999@gmail.com</span>
+          <span class="cl-arr">↗</span>
+        </a>
+        <a href="tel:+6288245258432" class="cl">
+          <span class="cl-label mono" data-i18n="contact_phone">PHONE</span>
+          <span class="cl-value">+62 882-4525-8432</span>
+          <span class="cl-arr">↗</span>
+        </a>
+        <a href="https://instagram.com/masaldoaje" target="_blank" rel="noopener" class="cl">
+          <span class="cl-label mono">INSTAGRAM</span>
+          <span class="cl-value">@masaldoaje</span>
+          <span class="cl-arr">↗</span>
+        </a>
+        <div class="cl cl-plain">
+          <span class="cl-label mono" data-i18n="contact_location">LOCATION</span>
+          <span class="cl-value">Banjarbaru, South Kalimantan, ID</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <span class="mono">ALDO NATANAEL SIHALOHO &nbsp;·&nbsp; SMK NEGERI 2 BANJARBARU &nbsp;·&nbsp; 2025</span>
+    <span class="mono" data-i18n="footer_copy">BUILT BY HAND.</span>
+  </footer>
+
+  <!-- LIGHTBOX -->
+  <div id="lightbox" onclick="closeLightbox()">
+    <button class="lb-close" onclick="closeLightbox()">✕</button>
+    <div class="lb-inner" onclick="event.stopPropagation()">
+      <img id="lbImg" src="" alt="" />
+      <div id="lbCaption" class="lb-caption mono"></div>
+    </div>
+  </div>
+
+  <script src="translations.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

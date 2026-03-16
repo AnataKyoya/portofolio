@@ -815,7 +815,7 @@ footer span {
   display: none;
   position: fixed;
   inset: 0;
-  z-index: 9999;
+  z-index: 999;
   background: rgba(0,0,0,0.96);
   align-items: center;
   justify-content: center;
